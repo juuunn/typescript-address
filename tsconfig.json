@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "target": "es5",                           // 컴파일 시 ES5로 컴파일
+        "lib": ["es2015", "dom", "dom.iterable"],  // Promise 등의 라이브러리 이용을 위해
+      "noImplicitAny": true,                       // es2015등을 추가
+      "strict": true,
+      "strictFunctionTypes": true
+    },
+    "include": ["./src/**/*"]                    // 컴파일 할 대상 파일패스 지정
+}
